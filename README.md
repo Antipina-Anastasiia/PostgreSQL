@@ -1,6 +1,6 @@
 ## PostgreSQL
 
-### [Create (tabl)](PostgreSQL_Script_Tables.sql)
+### [Create (table)](PostgreSQL_Script_Tables.sql)
 
 ### [Homework 1 (SELECT)](PostgreSQL_Script_HW1.sql)
 
