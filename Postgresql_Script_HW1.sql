@@ -1,14 +1,20 @@
+1. Таблица employees
+
+	a) Создать таблицу employees
+	- id. serial,  primary key,
+	- employee_name. Varchar(50), not null
+	
+	b) Наполнить таблицу employee 70 строками.
+```              
 create table employees(
        id serial primary key,
        employee_name varchar(50)
        );
  
-select * from employees
 
 alter table employees
 alter column employee_name set not null;   
-
-
+```
 create table salary(
      id serial primary key,
      monthly_salary int
@@ -24,7 +30,7 @@ BEGIN
         insert into salary(monthly_salary) values (counter);
     END LOOP;
 END; $$;
- 
+
 create table employee_salary(
       id serial primary key,
       employee_id int unique,
